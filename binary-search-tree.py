@@ -8,3 +8,5 @@ class BinarySearchTree:
     def __init__(self):
         self.root = None
 
+    def insert(self, key):
+        new_node = Node(key)
