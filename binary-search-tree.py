@@ -17,3 +17,8 @@ class BinarySearchTree:
         while (True):
             if new_node.key == temp.key:
                 return False
+            if new_node.key < temp.key:
+                if temp.left is None:
+                    temp.left = new_node
+                    return True
+                temp = temp.left
