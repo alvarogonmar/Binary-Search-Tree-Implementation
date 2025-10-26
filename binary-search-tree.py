@@ -30,3 +30,4 @@ class BinarySearchTree:
     
     def search(self, key):
         temp = self.root
+        while temp is not None:
