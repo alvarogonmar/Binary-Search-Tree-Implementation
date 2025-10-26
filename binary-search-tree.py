@@ -27,3 +27,5 @@ class BinarySearchTree:
                     temp.right = new_node
                     return True
                 temp = temp.right
+    
+    def search(self, key):
