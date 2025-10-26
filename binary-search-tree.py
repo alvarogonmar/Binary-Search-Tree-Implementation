@@ -29,3 +29,4 @@ class BinarySearchTree:
                 temp = temp.right
     
     def search(self, key):
+        temp = self.root
