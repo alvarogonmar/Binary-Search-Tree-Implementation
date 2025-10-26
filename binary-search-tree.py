@@ -32,3 +32,4 @@ class BinarySearchTree:
         temp = self.root
         while temp is not None:
             if key == temp.key:
+                return True
