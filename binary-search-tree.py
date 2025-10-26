@@ -33,3 +33,5 @@ class BinarySearchTree:
         while temp is not None:
             if key == temp.key:
                 return True
+            if key < temp.key:
+                temp = temp.left
