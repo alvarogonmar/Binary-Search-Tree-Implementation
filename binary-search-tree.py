@@ -35,3 +35,5 @@ class BinarySearchTree:
                 return True
             if key < temp.key:
                 temp = temp.left
+            else:
+                temp = temp.right
